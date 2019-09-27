@@ -451,7 +451,6 @@ GameObject:
   - component: {fileID: 1851672949}
   - component: {fileID: 1851672948}
   - component: {fileID: 1851672951}
-  - component: {fileID: 1851672952}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -541,20 +540,6 @@ MonoBehaviour:
   basketBottomY: -14
   basketSpacingY: 1.2
   basketList: []
---- !u!114 &1851672952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851672947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 250357ea7b1d186469c73ba7e6520195, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 5
-  NewLevel: _Scene_1
 --- !u!1 &1908633270
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +700,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971752078099399649, guid: 3a64acfba58bb544ebf1088b7b3c6a87,
+        type: 3}
+      propertyPath: speed
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971752078099399649, guid: 3a64acfba58bb544ebf1088b7b3c6a87,
+        type: 3}
+      propertyPath: secondsBetweenAppleDrops
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a64acfba58bb544ebf1088b7b3c6a87, type: 3}
